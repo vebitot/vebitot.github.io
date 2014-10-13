@@ -1,0 +1,109 @@
+    #st21logo{
+        max-height: 40px;
+        max-width: 200px;
+        padding-bottom: 2px;
+    }
+    .row {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    }
+    .header{
+        background-color: rgba(28, 172, 192, .95);
+        color: rgba(255, 255, 255, 1);
+        font-family: Xiaxide;
+        src: url({{STATIC_URL}}css/fonts);
+    }
+    body{
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color:rgba(77, 77, 78, 1);
+    }
+    body.noscroll{
+    position:fixed;
+    overflow:hidden;
+    }
+    .media-object{
+        max-height: 50px;
+        max-width: 50px;
+
+    }
+    #commentcontainer{
+        display: none;
+    }
+    #bottomnavbar{
+        max-height: 30px;
+        padding: 0px;
+        margin: 0px;
+    }
+    #bottomnav{
+        padding: 0px;
+        margin: 0px;
+    }
+    .commentbox{
+        float: both;
+    }
+    .well {
+    margin-top: 0;
+    clear:none; 
+    background-image: url("{{STATIC_URL}}images/wellbg.png");
+    background-repeat: both;  
+    /*background-color:rgba(255, 255, 255, 0.95);*/
+    color: rgba(83, 83, 83, 1);
+    /*font-family: 'Open Sans Condensed', sans-serif;*/
+    /*font-family: 'Josefin Sans', sans-serif;*/
+    /*    src: url({{STATIC_URL}}css/fonts);*/*/
+    /*border: 1px solid #e3e3e3;*/
+    border-radius: 4px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.55);
+    margin-bottom: 20px;
+    margin-left:-20px;
+    margin-right:0px;
+    margin-top: 5px;
+    min-height: 20px;
+    padding: 10px;
+    }
+     .well custom {
+    clear:none;  
+    background-color:rgba(255, 255, 255, 0.55);
+    color: rgba(14, 174, 227, 1);
+    /*border: 1px solid #e3e3e3;*/
+    border-radius: 4px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.9);
+    margin-bottom: 20px;
+    margin-top: 5px;
+    min-height: 20px;
+    padding: 10px;
+    }
+    .col-lg-8{
+        clear: none;
+    }
+    .navbar{
+        background-color: rgba(0, 0, 10, .8);
+        margin-top: 0px;
+        font-family: Abel;
+        font-weight: bold;
+       /*background-color: rgba(248, 110, 23, 1);*/
+    }
+    .ideatitle{
+        color: rgba(14, 174, 227, 1); 
+    }
+    #newideabtn{
+        max-height: 90px;
+        position: fixed;
+    }
+    .newideabtn{
+        position: relative;
+        padding-right: 50px;
+    }
+    .jumbotron{
+        opacity: 0.85;
+        margin-top: 5px;
+        padding: 5px;
+    }
+    .commentcontainers
+    {
+        height: 200px;
+        overflow: auto;
+    }
