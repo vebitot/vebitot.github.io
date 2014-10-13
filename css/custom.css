@@ -20,3 +20,7 @@
   font-family: 'Lato', Arial !important;
   -webkit-font-smoothing: antialiased;
 }
+.logo{
+	max-height: 100px;
+	max-width: 200px;
+}
