@@ -1,0 +1,22 @@
+/*body{
+	background: -webkit-linear-gradient(180deg, #93D7AA 0%, #59BFAA 100%);
+	color: #eeeffe;
+  	font-family: 'Lato', Arial;
+  	color: #666666;
+  	-webkit-font-smoothing: antialiased;
+}
+.transparent-bar{
+	opacity: 0.55;
+	clear: both;
+}
+.container{
+	clear: both;
+}*/
+#displaypicture{
+	max-height: 500px;
+	max-width: 500px;
+}
+#heading{
+  font-family: 'Lato', Arial !important;
+  -webkit-font-smoothing: antialiased;
+}
